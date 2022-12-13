@@ -1,0 +1,5 @@
+Clone the repo at https://github.com/salesforce/awd-lstm-lm
+
+To prepare the data for training, use the fine_tuning_model_for_e2e.ipynb notebook
+
+To generate text using the LSTM model, use the generate_text.ipynb notebook
