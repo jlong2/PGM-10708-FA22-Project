@@ -1,0 +1,136 @@
+{
+    "os": "Linux-4.14.296-222.539.amzn2.x86_64-x86_64-with-glibc2.10",
+    "python": "3.8.15",
+    "heartbeatAt": "2022-12-02T21:48:00.528305",
+    "startedAt": "2022-12-02T21:47:59.917476",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--checkpoint_path",
+        "diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e",
+        "--model_arch",
+        "transformer",
+        "--modality",
+        "e2e-tgt",
+        "--save_interval",
+        "50000",
+        "--lr",
+        "0.0001",
+        "--batch_size",
+        "64",
+        "--diffusion_steps",
+        "2000",
+        "--noise_schedule",
+        "sqrt",
+        "--use_kl",
+        "False",
+        "--learn_sigma",
+        "False",
+        "--image_size",
+        "8",
+        "--num_channels",
+        "128",
+        "--seed",
+        "102",
+        "--dropout",
+        "0.1",
+        "--in_channel",
+        "16",
+        "--out_channel",
+        "16",
+        "--padding_mode",
+        "block",
+        "--experiment",
+        "random",
+        "--lr_anneal_steps",
+        "200000",
+        "--weight_decay",
+        "0.0",
+        "--num_res_blocks",
+        "2",
+        "--predict_xstart",
+        "True",
+        "--training_mode",
+        "e2e",
+        "--vocab_size",
+        "821",
+        "--e2e_train",
+        "../datasets/e2e_data"
+    ],
+    "state": "running",
+    "program": "scripts/train.py",
+    "codePath": "improved-diffusion/scripts/train.py",
+    "git": {
+        "remote": "https://github.com/XiangLi1999/Diffusion-LM.git",
+        "commit": "759889d58ef38e2eed41a8c34db8032e072826f4"
+    },
+    "email": null,
+    "root": "/home/ec2-user/Diffusion-LM",
+    "host": "ip-172-31-5-161.ec2.internal",
+    "username": "ec2-user",
+    "executable": "/opt/conda/envs/diffusion-lm/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2706.143125,
+        "min": 1200.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2701.116,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2702.728,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2725.091,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2700.015,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2719.646,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2700.124,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2700.58,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2699.845,
+            "min": 1200.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 44.98826217651367,
+        "used": 31.91640853881836
+    },
+    "gpu": "Tesla V100-SXM2-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 59.95885467529297
+    }
+}

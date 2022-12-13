@@ -1,0 +1,5 @@
+[default]
+entity = zijianz
+project = diffusion_lm
+base_url = https://api.wandb.ai
+
